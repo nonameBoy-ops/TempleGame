@@ -1,1 +1,3 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"/home/fabi/Schreibtisch/TempleGame-main/TempleGame/Content/Arena.png","/home/fabi/Schreibtisch/TempleGame-main/TempleGame/Content/bin/DesktopGL/Content/wallpaper.xnb","TextureProcessor","Texture2DContent",564275,2742421,0.3064952
+"/home/fabi/Schreibtisch/TempleGame-main/TempleGame/Content/gumba.png","/home/fabi/Schreibtisch/TempleGame-main/TempleGame/Content/bin/DesktopGL/Content/gumba.xnb","TextureProcessor","Texture2DContent",645,25429,0.1896254

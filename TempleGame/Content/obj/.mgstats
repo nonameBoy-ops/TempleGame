@@ -1,2 +1,2 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/Users/SteissFa/Documents/TempleGame/Content/Arena.png","C:/Users/SteissFa/Documents/TempleGame/Content/bin/wallpaper.xnb","TextureProcessor","Texture2DContent",564275,2742421,0,2313456
+"/home/fabi/Schreibtisch/TempleGame-main/TempleGame/Content/gumba.png","/home/fabi/Schreibtisch/TempleGame-main/TempleGame/Content/bin/gumba.xnb","TextureProcessor","Texture2DContent",645,25429,0,229115

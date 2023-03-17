@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "koQoMILdwDGuNWxWKH3YCRuKoVHBQ52MEG/o+mvN0CZXwnPay6L6NNdLv3Qe/y7FVgduDgomhbo3awLYp6DVBg==",
+  "dgSpecHash": "MbXuQCs6Uq/G0BDOMbWuCHGSVN+mkRgucDi86o/MNj4jregq+fAJwkC1Ynn193JmyZpDg7LuKZlO+vRKvL+bZg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SteissFa\\Documents\\TempleGame\\TempleGame.csproj",
+  "projectFilePath": "/home/fabi/Schreibtisch/TempleGame-main/TempleGame/TempleGame.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\SteissFa\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
-    "C:\\Users\\SteissFa\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
+    "/home/fabi/.nuget/packages/monogame.content.builder.task/3.8.1.303/monogame.content.builder.task.3.8.1.303.nupkg.sha512",
+    "/home/fabi/.nuget/packages/monogame.framework.desktopgl/3.8.1.303/monogame.framework.desktopgl.3.8.1.303.nupkg.sha512",
+    "/home/fabi/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.14/microsoft.netcore.app.host.linux-x64.6.0.14.nupkg.sha512"
   ],
   "logs": []
 }

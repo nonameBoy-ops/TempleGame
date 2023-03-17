@@ -15,10 +15,10 @@ namespace TempleGame
         GraphicsDevice gpu;
 
         Texture2D Background;
-       // Texture2D Gumba;
+        Texture2D Gumba;
 
         Vector2 backgroundposition = new Vector2(0,0);
-        // Vector2 Gumbaposition = new Vector2(300,600);
+        Vector2 Gumbaposition = new Vector2(100,100);
 
         /*------------------------------------Variablen-----------------------------*/
 
@@ -50,7 +50,7 @@ namespace TempleGame
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
             Background = Content.Load<Texture2D>("wallpaper");
-            // Gumba = Content.Load<Texture2D>("gumbaExample");
+            Gumba = Content.Load<Texture2D>("gumba");
 
             //Song SongExample;
             //SongExample = Content.Load<Song>("SongExample");
@@ -71,9 +71,9 @@ namespace TempleGame
             /*------------------------------------------*/
             KeyboardState state = Keyboard.GetState();
 
-            /* if (Gumbaposition.X == 1200)
+            if (Gumbaposition.X == 1050)
             {
-                Gumbaposition.X = 1100;
+                Gumbaposition.X = 1000;
 
             }
 
@@ -83,9 +83,9 @@ namespace TempleGame
 
             }
 
-            if (Gumbaposition.Y == 1200)
+            if (Gumbaposition.Y == 600)
             {
-                Gumbaposition.Y = 1100;
+                Gumbaposition.Y = 500;
 
             }
 
@@ -97,12 +97,27 @@ namespace TempleGame
 
             if (state.IsKeyDown(Keys.D))
             {
+
+            if (state.IsKeyDown(Keys.LeftShift))
+            {
+                Gumbaposition.X += 15;
+                
+
+            }
+
                 Gumbaposition.X += 10;
+
 
             }
 
             if (state.IsKeyDown(Keys.A))
             {
+            if (state.IsKeyDown(Keys.LeftShift))
+            {
+                Gumbaposition.X -= 15;
+                
+
+            }
                 Gumbaposition.X -= 10;
 
             }
@@ -110,16 +125,28 @@ namespace TempleGame
 
             if (state.IsKeyDown(Keys.W))
             {
+                            if (state.IsKeyDown(Keys.LeftShift))
+            {
+                Gumbaposition.Y -= 15;
+                
+
+            }
                 Gumbaposition.Y -= 10;
 
             }
 
             if (state.IsKeyDown(Keys.S))
             {
+                            if (state.IsKeyDown(Keys.LeftShift))
+            {
+                Gumbaposition.Y += 15;
+                
+
+            }
                 Gumbaposition.Y += 10;
 
             }
-            */
+            
             /*----------------------Steuerung----------------------------*/
             
 
@@ -142,12 +169,12 @@ namespace TempleGame
 
         protected override void Draw(GameTime gameTime)
         {
-            //GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
-            spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.Opaque);
+            spriteBatch.Begin();
             spriteBatch.Draw(Background, backgroundposition, Color.White);
-            //spriteBatch.Draw(Gumba, Gumbaposition, Color.White);
+            spriteBatch.Draw(Gumba, Gumbaposition,Color.White);
 
             spriteBatch.End();
             base.Draw(gameTime);

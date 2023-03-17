@@ -4,10 +4,11 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
+    <File>/home/fabi/Schreibtisch/TempleGame-main/TempleGame/Content/gumba.png</File>
     <File>C:/Users/SteissFa/Documents/TempleGame/Content/Arena.png</File>
   </SourceFiles>
   <DestFiles>
-    <File>wallpaper.png</File>
     <File xsi:nil="true" />
+    <File>wallpaper.png</File>
   </DestFiles>
 </SourceFileCollection>

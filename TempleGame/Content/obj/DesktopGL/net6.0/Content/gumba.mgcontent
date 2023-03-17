@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>/home/fabi/Schreibtisch/TempleGame-main/TempleGame/Content/Arena.png</SourceFile>
-  <SourceTime>2023-03-14T10:55:13+01:00</SourceTime>
-  <DestFile>/home/fabi/Schreibtisch/TempleGame-main/TempleGame/Content/bin/DesktopGL/Content/wallpaper.xnb</DestFile>
-  <DestTime>2023-03-16T20:19:44.9250721+01:00</DestTime>
+  <SourceFile>/home/fabi/Schreibtisch/TempleGame-main/TempleGame/Content/gumba.png</SourceFile>
+  <SourceTime>2023-03-16T21:47:10.024296+01:00</SourceTime>
+  <DestFile>/home/fabi/Schreibtisch/TempleGame-main/TempleGame/Content/bin/DesktopGL/Content/gumba.xnb</DestFile>
+  <DestTime>2023-03-16T21:48:01.9273474+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T13:44:56+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

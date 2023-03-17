@@ -1,34 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SteissFa\\Documents\\TempleGame\\TempleGame.csproj": {}
+    "/home/fabi/Schreibtisch/TempleGame-main/TempleGame/TempleGame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SteissFa\\Documents\\TempleGame\\TempleGame.csproj": {
+    "/home/fabi/Schreibtisch/TempleGame-main/TempleGame/TempleGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SteissFa\\Documents\\TempleGame\\TempleGame.csproj",
+        "projectUniqueName": "/home/fabi/Schreibtisch/TempleGame-main/TempleGame/TempleGame.csproj",
         "projectName": "TempleGame",
-        "projectPath": "C:\\Users\\SteissFa\\Documents\\TempleGame\\TempleGame.csproj",
-        "packagesPath": "C:\\Users\\SteissFa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SteissFa\\Documents\\TempleGame\\obj\\",
+        "projectPath": "/home/fabi/Schreibtisch/TempleGame-main/TempleGame/TempleGame.csproj",
+        "packagesPath": "/home/fabi/.nuget/packages/",
+        "outputPath": "/home/fabi/Schreibtisch/TempleGame-main/TempleGame/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\SteissFa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/home/fabi/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -67,12 +58,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[6.0.14, 6.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/7.0.103/RuntimeIdentifierGraph.json"
         }
       }
     }
